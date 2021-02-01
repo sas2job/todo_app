@@ -1,24 +1,27 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Todo app
 
-Things you may want to cover:
+A reactive todo list application with Stimulus Reflex and Rails 6
 
-* Ruby version
+### Requirements
 
-* System dependencies
+`ruby >= 2.6.5`
 
-* Configuration
+`rails ~> 6.0.3.3`
 
-* Database creation
+### Installation & using
 
-* Database initialization
+In `terminal` or `cmd`
 
-* How to run the test suite
+- `$ git clone git@github.com:sas2job/todo_app.git`
 
-* Services (job queues, cache servers, search engines, etc.)
+- `$ gem install bundler` - if needed
 
-* Deployment instructions
+- `$ bundle install`
 
-* ...
+- `$ rails db:migrate`
+
+- `$ rails s` for server starting
+
+Then open `http://localhost:3000/todo_lists` at your web-browser
