@@ -18,7 +18,7 @@ In `terminal` or `cmd`
 
 - `$ gem install bundler` - if needed
 
-- `$ bundle install`
+- `$ bundle install --without production`
 
 - `$ rails db:migrate`
 
