@@ -4,6 +4,8 @@
 
 A reactive todo list application with Stimulus Reflex and Rails 6
 
+[Todo app](https://desolate-thicket-65463.herokuapp.com/) - heroku deployed example
+
 ### Requirements
 
 `ruby >= 2.6.5`
