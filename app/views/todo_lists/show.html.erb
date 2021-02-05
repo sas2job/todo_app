@@ -42,7 +42,7 @@
     </div> 
   <% end %> 
   <ul class="list-group">
-    <% @todo_list.todo_items.each do |todo_item| %>
+    <% @todo_list.todo_items.reverse.each do |todo_item| %>
       <% if todo_item.completed? %>
         <li class="list-group-item bg-light">
           <div class="d-flex justify-content-between">
